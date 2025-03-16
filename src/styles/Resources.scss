@@ -1,0 +1,19 @@
+.resources {
+    background-color: #E1E5EE;
+    padding: 20px;
+    border-radius: 8px;
+  
+    h2 {
+      color: #2A324B;
+    }
+  
+    a {
+      color: #58699D;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  

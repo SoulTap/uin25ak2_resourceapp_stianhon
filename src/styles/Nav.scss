@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px; // Juster etter behov
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #E1E5EE;
+    flex-wrap: nowrap; // Forhindre at elementene havner under hverandre
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #2A324B;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    white-space: nowrap; // Sikrer at teksten ikke brytes til ny linje
+  
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  
+    &.active {
+      background-color: white;
+      color: black;
+    }
+  }
+  

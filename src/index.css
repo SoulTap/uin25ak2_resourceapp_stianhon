@@ -1,0 +1,96 @@
+/* Bakgrunn */
+body {
+  background-color: #dbe1ea;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.resources-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Boks rundt ressursene */
+.resources-box {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Tittel */
+.resources-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+/* Beskrivelse */
+.resources-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Liste over ressurser */
+.resources-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resources-list li {
+  margin-bottom: 10px;
+}
+
+.resources-list a {
+  font-size: 18px;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.resources-list a:hover {
+  text-decoration: underline;
+}
+
+/* Tom liste */
+.no-resources {
+  font-size: 16px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Meny */
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #dbe1ea;
+}
+
+.menu button {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu button.active {
+  background: white;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+}
+
+.menu button:hover {
+  background: #333;
+}
